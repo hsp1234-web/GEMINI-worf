@@ -1,0 +1,18 @@
+{
+    "2023-01": [
+        {
+            "title": "Post One Title",
+            "date": "2023-01-15",
+            "post_content": "Discussion about VIX and S&P 500 performance.",
+            "comments": "What about TSLA and also Apple (AAPL)?"
+        }
+    ],
+    "2023-02": [
+        {
+            "title": "Post Two Title",
+            "date": "2023-02-10",
+            "post_content": "Thinking about US 10-year bond yields (美國10年期公債殖利率).",
+            "comments": "Any news on NASDAQ?"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>月度金融市場深度分析報告 - 2023-01</title>
+    <!-- GOOGLE_API_KEY is read from environment variables server-side, not exposed here. -->
+    <style>
+        :root {{
+            --primary-color: #4a90e2; /* Gemini Blue */
+            --secondary-color: #f5a623; /* Gemini Orange */
+            --text-color: #333;
+            --bg-color: #fff;
+            --accent-color: #d0021b; /* Gemini Red */
+            --neutral-color: #7f8c8d; /* Gemini Grey */
+            --border-color: #e0e0e0;
+        }}
+        body.dark-mode {{
+            --text-color: #eee;
+            --bg-color: #2c2c2c;
+            --border-color: #444;
+        }}
+        /* Add more styles here based on Gemini visual style */
+        body {{ font-family: sans-serif; margin: 0; padding: 20px; background-color: var(--bg-color); color: var(--text-color); }}
+        header {{ background-color: var(--primary-color); color: white; padding: 1em; text-align: center; }}
+        h1, h2, h3 {{ color: var(--primary-color); }}
+        body.dark-mode h1, body.dark-mode h2, body.dark_mode h3 {{ color: var(--secondary-color); }}
+        .chart-container {{ margin: 20px 0; text-align: center; }}
+        .chart-container img {{ max-width: 100%; height: auto; border: 1px solid var(--border-color); }}
+        .chart-caption {{ font-style: italic; color: var(--neutral-color); margin-top: 5px; }}
+    </style>
+</head>
+<body>
+    <header><h1>2023-01 金融市場深度分析報告</h1></header>
+    <section id="overview"><h2>I. 當月概覽</h2><p>(Mocked: Overview for 2023-01)</p></section>
+    <section id="event-interpretation"><h2>II. 金融事件解讀</h2><p>(Mocked: Financial event interpretation for 2023-01)</p><div>**主要金融大事件**
+- **全球通膨持續**：本月全球通膨數據居高不下，多國央行持續緊縮政策。對全球市場造成壓力。
+- **俄烏戰爭影響**：能源價格波動，供應鏈問題持續。
+
+**特定金融商品事件**
+- **VIX (恐慌指數)**：由於市場不確定性增加，VIX 指數在月初顯著上升，隨後有所回落。
+- **TSLA (特斯拉)**：發布了超出預期的季度財報，股價大幅上漲。但受到全球供應鏈影響，產能仍面臨挑戰。</div></section>
+    <section id="trading-logic"><h2>III. 交易邏輯分析</h2><p>(Mocked: Trading logic analysis for 2023-01)</p></section>
+    <section id="takeaways"><h2>IV. 成功交易啟示</h2><p>(Mocked: Trading takeaways for 2023-01)</p></section>
+    <section id="charts">
+        <h2>V. 視覺化市場數據</h2>
+        <div class="chart-container">
+            <img src='charts/2023-01_VIX_OCHLV_chart.png' alt='VIX OCHLV Chart for 2023-01'>
+            <p class="chart-caption">VIX 指數月度 OCHLV 走勢圖。</p>
+        </div>
+        <div class="chart-container">
+            <img src='charts/2023-01_TSLA_OCHLV_chart.png' alt='TSLA OCHLV Chart for 2023-01'>
+            <p class="chart-caption">TSLA 月度 OCHLV 走勢圖。</p>
+        </div>
+    </section>
+    <footer><p>報告生成時間: 2025-06-04 04:24:40</p></footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+    "2023-01": {
+        "posts": [
+            {
+                "title": "Post One Title",
+                "date": "2023-01-15",
+                "post_content": "Discussion about VIX and S&P 500 performance.",
+                "comments": "What about TSLA and also Apple (AAPL)?"
+            }
+        ],
+        "financial_data_summary": [
+            "VIX (^VIX): 本月開盤 23.09, 收盤 19.40, 最高 23.76, 最低 17.97. 月漲跌幅 -15.98%",
+            "TSLA (TSLA): 本月開盤 118.47, 收盤 173.22, 最高 180.68, 最低 101.81. 月漲跌幅 46.21%",
+            "AAPL (AAPL): 本月開盤 130.28, 收盤 144.29, 最高 147.23, 最低 124.17. 月漲跌幅 10.75%",
+            "S&P 500 (^GSPC): 本月開盤 3853.29, 收盤 4076.60, 最高 4094.21, 最低 3794.33. 月漲跌幅 5.80%"
+        ]
+    },
+    "2023-02": {
+        "posts": [
+            {
+                "title": "Post Two Title",
+                "date": "2023-02-10",
+                "post_content": "Thinking about US 10-year bond yields (美國10年期公債殖利率).",
+                "comments": "Any news on NASDAQ?"
+            }
+        ],
+        "financial_data_summary": [
+            "美國10年期公債殖利率 (DGS10): 月初值 3.39%, 月末值 3.92%. 月平均值 3.75%. 月變化 0.53%.",
+            "NASDAQ (^IXIC): 本月開盤 11573.14, 收盤 11455.54, 最高 12269.55, 最低 11334.47. 月漲跌幅 -1.02%"
+        ]
+    }
+}
